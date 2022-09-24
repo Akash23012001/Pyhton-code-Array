@@ -17,8 +17,6 @@ Large.append(max(M))
 M.clear()
 L=0
 Max.clear()
-# m=[]
-# mAx=[]
 for i in range(n):
     s=spin[i]
     for j in s:
@@ -30,9 +28,6 @@ for i in range(n):
     Max.clear()
 Large.append(max(M))
 print(Large)
-# m1=[]
-# La=0
-# MAx=[]
 M.clear()
 Max.clear()
 L=0
