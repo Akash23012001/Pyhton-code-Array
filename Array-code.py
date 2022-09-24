@@ -14,31 +14,36 @@ for i in range(n):
     Max.clear()
     # print(Max)
 Large.append(max(M))
-m=[]
-l=0
-mAx=[]
+M.clear()
+L=0
+Max.clear()
+# m=[]
+# mAx=[]
 for i in range(n):
     s=spin[i]
     for j in s:
-        mAx.append(int(j))
-    mAx.sort()
-    mAx.pop()
-    l=max(mAx)
-    m.append(l)
-    mAx.clear()
-Large.append(max(m))
+        Max.append(int(j))
+    Max.sort()
+    Max.pop()
+    L=max(Max)
+    M.append(L)
+    Max.clear()
+Large.append(max(M))
 print(Large)
-m1=[]
-La=0
-MAx=[]
+# m1=[]
+# La=0
+# MAx=[]
+M.clear()
+Max.clear()
+L=0
 for i in range(n):
     s1=spin[i]
     for j in s1:
-        MAx.append(int(j))
-    La=min(MAx)
-    m1.append(La)
-    MAx.clear()
-Large.append(max(m1))
+        Max.append(int(j))
+    L=min(Max)
+    M.append(L)
+    Max.clear()
+Large.append(max(M))
 print(Large)
 sum=0
 for i in Large:
